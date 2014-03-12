@@ -7,11 +7,17 @@
 <script> 
     $(document).ready(function() {
    
-    $('grab').click(function)() {
+    $('#grab').click(function() {
     	$('.jumbotron').css('background-color', 'blue');
    
 
     });
+    $('#backdrop').click(function) {
+    	$'body,html').animate({
+    		scrollTop: 0
+    	}, 200);
+    	return false;
+    }
 </script>
 </head>
 <body>
