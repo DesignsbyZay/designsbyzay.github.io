@@ -3,6 +3,23 @@
 	<title>SoundBlastr</title>
 	<link rel="stylesheet" href="bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js">
+	
+	$(function() {
+		$.getJSON('http://demo.slashdb.com/db/OpenJC/police_callcode_type.json?').done(function(data) {
+			alert (data);
+			var types = [];
+			for(var i=0; i < data.length; i++){
+				types[i] = data[i].description;
+			}
+			alert(data[5]).description);
+			types.sort();
+			types.forEach(function(type) {
+				$( "#dropdown" ).append( '<li class="droptypes"><a href="#">'+type+'</a></li>' 
+
+				)}
+</script>
+
 
 </head>
 <body>
@@ -105,6 +122,17 @@
 		</div>
 	</section>
 
+<div class="btn-group">
+  
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+					Action <span class="caret"></span>
+				</button>
+					<ul class="dropdown-menu" role="menu" id="dropdown">
+					<li>option'1</li>
+					</ul>
+			</div>
+				
+
 	<section id="login">
 		<div class="container">
 			<div class="row">
@@ -147,6 +175,9 @@
 				</div>
 			</div>
 		</div>
+
+
+
 	</section>
 </body>
 </html>
