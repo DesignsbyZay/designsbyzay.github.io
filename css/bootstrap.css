@@ -3227,6 +3227,55 @@ fieldset[disabled] .btn-success.focus {
   color: #5cb85c;
   background-color: #fff;
 }
+
+.btn-nffr { 
+  color: #FFFFFF; 
+  background-color: #A50B5E; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-nffr:hover, 
+.btn-nffr:focus, 
+.btn-nffr:active, 
+.btn-nffr.active, 
+.open .dropdown-toggle.btn-nffr { 
+  color: #FFFFFF; 
+  background-color: #FF9EC2; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-nffr:active, 
+.btn-nffr.active, 
+.open .dropdown-toggle.btn-nffr { 
+  background-image: none; 
+} 
+ 
+.btn-nffr.disabled, 
+.btn-nffr[disabled], 
+fieldset[disabled] .btn-nffr, 
+.btn-nffr.disabled:hover, 
+.btn-nffr[disabled]:hover, 
+fieldset[disabled] .btn-nffr:hover, 
+.btn-nffr.disabled:focus, 
+.btn-nffr[disabled]:focus, 
+fieldset[disabled] .btn-nffr:focus, 
+.btn-nffr.disabled:active, 
+.btn-nffr[disabled]:active, 
+fieldset[disabled] .btn-nffr:active, 
+.btn-nffr.disabled.active, 
+.btn-nffr[disabled].active, 
+fieldset[disabled] .btn-nffr.active { 
+  background-color: #A50B5E; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-nffr .badge { 
+  color: #A50B5E; 
+  background-color: #FFFFFF; 
+}
+
+
+
 .btn-info {
   color: #fff;
   background-color: #5bc0de;
