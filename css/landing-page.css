@@ -164,8 +164,55 @@ h6 {
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
+
+}
+.banner2 {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bgMBK.png) no-repeat center center;
+    background-size: cover;
 }
 
+.banner2 h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner2 ul {
+    margin-bottom: 0;
+}
+
+.banner2-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner2-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    
+    .banner2 h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner2-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner2-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
 footer {
     padding: 50px 0;
     background-color: #f8f8f8;
