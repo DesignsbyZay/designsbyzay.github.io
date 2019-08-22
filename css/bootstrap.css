@@ -12,6 +12,23 @@ html {
 body {
   margin: 0;
 }
+
+body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("https://lh3.googleusercontent.com/AowAeYCIWWn6fFhsJ9TfOfV4IvZuiBdLdFKn4K4mEO5VFhzlMiCSyPv_QEKFky3wTmWNXWWkPhwFLaJju3iM-fwdmIKgHsWXGFFWPB_cbIAQZwzHM-XApQfDfBdLW14oK2ObRC1Dj8LU_iD0BExNCAjvbgqgS3nvuKQXWWlf7n6rDFW0Z_WCAo0IeGC8UIRg0IjR191ZmpKKOY97G607cpgamY3uidpyMjnHJ75HE4463w4P4ACpUHAOor8L_kEVXaD6EwDd1nakxqrAfmPhKMQELrgY4ZhwK1z5tbNj1W2iyet1m4YYQ78lhGIRE5aE6n3-25PGUq0vhbzcxlcsWfhBHbzYgFeBgv_CJZ66b98YAm-MIuIXesTmQkjP5BNHuR2-BIzGle8vFhpm94vVdAetxrfrnbAu5T75KFpG2cR-cJeKg4Qx-oIhHDs7gKJQhI-T2vqhiPn4I1sGo2j8PjHqeaDKnLaCSR2uV7-_op-5hUYdHpSsLDxmw_Hkb96UXz12OWAgSJy3drZuuC99i82M-sGqcBs4prXW8GOdCksIVOFM1MpwTpGzDRNxiWDwbianm_faGNa8CdJlI8UXHKuRzIBXzPJG20DuhidZOebXte4YKtZ8Et0kBPZiiqP0C45Nxc92A6pdXVBvpMg3fwArYWtE54M=w938-h626-no");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 article,
 aside,
 details,
@@ -43,7 +60,7 @@ template {
   display: none;
 }
 a {
-  background-color: transparent;
+  ---color: transparent;
 }
 a:active,
 a:hover {
